@@ -84,8 +84,8 @@ export default {
     return {
       nickname: '李雷',
       avatarImg: '',
-      logoImg: '/img/扩扩帮logo.png',
-      statRingImg: '/img/能力图底盘.png'
+      logoImg: require('@/assets/扩扩帮logo.png'),
+      statRingImg: require('@/assets/能力图底盘.png')
     }
   },
   computed: {
